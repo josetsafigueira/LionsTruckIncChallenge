@@ -1,0 +1,20 @@
+<template>
+    <div class="slds-is-relative">
+        <lightning-card>
+            <lightning-spinner if:true={isLoading}></lightning-spinner>
+            <h3 slot="title">
+                <lightning-icon icon-name="custom:custom19" size="medium" class="slds-m-right_x-small"></lightning-icon>
+                Workshop Sync
+            </h3>
+            <p class="slds-p-horizontal_small">{message}</p>
+            <div slot="footer">
+                <lightning-button
+                        label="Submit"
+                        onclick={syncAssetWithWorshop}
+                        disabled={disableSubmitButton}
+                        variant="brand">
+                </lightning-button>
+            </div>
+        </lightning-card>
+    </div>
+</template>
