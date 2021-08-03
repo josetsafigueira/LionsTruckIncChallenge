@@ -15,6 +15,6 @@ public with sharing class RestConstants {
         public String endpoint { get {return 'https://XXXX/{0}'; } }
         public String clientId { get { return 'XXXX'; } }
         public String clientSecret { get { return 'XXXX'; } }
-        public String correlationId { get { return 'a9111cc7-XXXX-420b-996d-c403e449fb82'; } }
+        public String correlationId { get { return 'XXXX'; } }
     }
 }
